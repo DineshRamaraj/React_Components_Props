@@ -1,0 +1,42 @@
+/* Write your code here. */
+body {
+  margin: 0;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.box {
+  color: #ffffff;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small-box {
+  background-color: #fbbf24;
+  width: 50px;
+  height: 50px;
+}
+.medium-box {
+  background-color: #38bdf8;
+  width: 110px;
+  height: 110px;
+}
+.large-box {
+  background-color: #ec4899;
+  width: 180px;
+  height: 180px;
+}
